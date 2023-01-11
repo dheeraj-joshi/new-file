@@ -1,13 +1,13 @@
-# class subsets:
-#     def __init__(self,s) :
-#         a = [[]]
-#         for element in s:
-#             for i in range(len(a)):
-#                 a.append(a[i] + [element])
+class subsets:
+    def __init__(self,s) :
+        a = [[]]
+        for element in s:
+            for i in range(len(a)):
+                a.append(a[i] + [element])
                 
-#         print(a)
+        print(a)
     
-# w=subsets([4,5,6])
+w=subsets([4,5,3])
 
     
 
