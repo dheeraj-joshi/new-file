@@ -1,54 +1,47 @@
 # class subsets:
-#  s=[4, 5, 6]
-#  a = [[]]
-#  for element in s:
-#         for i in range(len(a)):
-#             current_subset = a[i]
-#             a.append(current_subset + [element])
+#     def __init__(self,s) :
+#         a = [[]]
+#         for element in s:
+#             for i in range(len(a)):
+#                 a.append(a[i] + [element])
+                
+#         print(a)
     
-# w=subsets()
-# print(w.a)
+# w=subsets([4,5,6])
 
-# # class subsets:
-# s=[4, 5, 6]
-# subset = [[]]
-# for element in s:
-#          for i in range(len(subset)):
-#               current_subset=subset[i]
-#               subset.append(current_subset+[element])
-# print(subset)     
     
 
-# # c=subsets()
-# # # print(c.subset)
-# a=(4,5,60)
-# list1=[]
-# for i in range(len(a)):
-#    for j in range(i+1,len(a)+1):
-#     list1.append(a[i:j])
-# print(list1)    
 
 
 
-class Student:
-    def show(self,name,roll):
-        self.name=name
-        self.roll=roll
-s=Student()
-s.show("dheeraj",23)
 
-print(s.__dict__)
+class Student: 
+    def __init__(self, student_id, student_name, class_name):
+        self.student_id = student_id
+        self.student_name = student_name
+        self.class_name = class_name 
+student = Student('V12', 'Frank Gibson', 'V')
+print(student.__dict__)
+   
+
+# class new:
+#  def __init__(self,a):
+#     d=[[]]
+#     for i in a:
+#         for e in range(len(d)):
+#             d.append(d[e]+[i])
+#     print(d)
+# v=new([1,2,3])  
 
 
-
-# class Student: 
-#     def __init__(self, student_id, student_name, class_name):
-#         self.student_id = student_id
-#         self.student_name = student_name
-#         self.class_name = class_name 
-# student = Student('V12', 'Frank Gibson', 'V')
-# print(student.__dict__)
-
+# class a:
+#     def __init__(self,q):
+#      d=[[]]
+#      for ele in q:
+#             for i in range(len(d)):
+#                 d.append(d[i]+[ele])
+#      print(d)
+# b=a([4,7,1])                 
 
 
 
